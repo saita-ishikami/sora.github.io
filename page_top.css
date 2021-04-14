@@ -1,0 +1,27 @@
+#page-top {
+  position: fixed;
+  bottom: 1em;
+  right: 5%;
+  z-index: 999;
+}
+
+#page-top a {
+  display: block;
+  text-decoration: none;
+
+    background: #666;
+    color: #ffffff;
+    font-size: 2.4vmax;
+    font-weight: bold;
+    /*width: 15vw;*/
+    padding: 0.618em 1em;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+#page-top a:hover {
+  opacity: 0.618;
+
+    text-decoration: none;
+    background: #999;
+}
